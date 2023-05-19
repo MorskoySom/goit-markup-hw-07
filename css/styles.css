@@ -51,10 +51,33 @@ img {
 /* Base */
 
 .container {
+  /* Mobile first */
+  min-width: 320px;
+  max-width: 448px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  /* Tablet */
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* Desktop */
+  .container {
+    max-width: 1158px;
+    padding: 0 15px;
+  }
+}
+
+/* .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-}
+} */
 
 .section {
   padding: 120px 0;
