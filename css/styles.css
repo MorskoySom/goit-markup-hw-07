@@ -50,6 +50,27 @@ img {
   text-decoration: none;
 }
 
+/* MENTOR STYLES of CONTAINERS */
+/* .container {
+  max-width: 428px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+  }
+} */
+
 /* Base */
 
 .container {
@@ -57,13 +78,13 @@ img {
   min-width: 320px;
   max-width: 448px;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 @media only screen and (min-width: 768px) {
   /* Tablet */
   .container {
-    max-width: 720px;
+    max-width: 768px;
   }
 }
 
@@ -440,6 +461,7 @@ img {
 
 .team-container {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
