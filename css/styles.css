@@ -462,7 +462,15 @@ img {
 .team-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 72px;
+  justify-content: center;
+  /* gap: 24px; */
+}
+
+@media only screen and (min-width: 768px) {
+  .team-container {
+    gap: 64px 24px;
+  }
 }
 
 .team-color {
@@ -534,6 +542,7 @@ img {
 
 .client-container {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
