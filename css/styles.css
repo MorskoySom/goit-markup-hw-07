@@ -127,14 +127,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
   margin: 0 0 8px 0;
-
-  /* Font style: Bold
-  Font size: 36px
-  Line height: 40px
-  Line height: 95%
-  Align: Left
-  Vertical align: Top
-  Letter spacing: 2% */
+  /* text-align: center; */
 }
 
 @media only screen and (min-width: 1200px) {
@@ -329,11 +322,24 @@ img {
 
 .skills-container {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  /* gap: 72px 24px; */
+  row-gap: 72px;
+  column-gap: 24px;
 }
 
 .skills-title {
   font-weight: 500;
+}
+
+.skills-items-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+  margin: 0 0 8px 0;
+  text-align: center;
 }
 
 .skills-small-text {
@@ -354,11 +360,31 @@ img {
 
 .skills-item {
   display: block;
-  width: 264px;
+  width: 396px;
+}
+
+@media only screen and (min-width: 768px) {
+  .skills-item {
+    display: block;
+    width: 356px;
+  }
+  .skills-items-title {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .skills-item {
+    width: 264px;
+  }
+  .skills-items-title {
+    text-align: left;
+  }
 }
 
 .icon-skill {
-  display: flex;
+  /* display: flex; */
+  display: none;
   justify-content: center;
   align-items: center;
   width: 264px;
@@ -368,6 +394,15 @@ img {
   background: var(--color-cloud);
   border-radius: 4px;
   margin-bottom: 8px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .icon-skill {
+    display: flex;
+  }
+  /* .skills-item {
+    width: 264px;
+  } */
 }
 
 /* Doings section */
