@@ -92,7 +92,7 @@ img {
   /* Desktop */
   .container {
     max-width: 1158px;
-    padding: 0 15px;
+    /* padding: 0 16px; */
   }
 }
 
