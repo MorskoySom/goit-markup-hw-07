@@ -624,9 +624,20 @@ img {
   /* align-items: baseline; */
 }
 
+@media only screen and (min-width: 768px) {
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: baseline;
+  }
+}
+
 @media only screen and (min-width: 1200px) {
   .footer-container {
     display: flex;
+    flex-direction: row;
     align-items: baseline;
   }
 }
@@ -639,6 +650,20 @@ img {
   row-gap: 16px;
 }
 
+@media only screen and (min-width: 768px) {
+  .footer-part-one {
+    display: inline-block;
+    margin-right: 24px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .footer-part-one {
+    display: inline-block;
+    margin-right: 120px;
+  }
+}
+
 /* .footer-part-one {
   display: inline-block;
   margin-right: 120px;
@@ -646,6 +671,13 @@ img {
 
 .footer-part-two {
   display: block;
+}
+
+@media only screen and (min-width: 1200px) {
+  .footer-part-two {
+    /* display: block; */
+    margin-right: 80px;
+  }
 }
 
 /* .footer-part-two {
@@ -661,6 +693,18 @@ img {
   row-gap: 16px;
 }
 
+@media only screen and (min-width: 768px) {
+  .footer-part-three {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .footer-part-three {
+    display: block;
+  }
+}
+
 /* .footer-part-three {
   display: block;
 } */
@@ -670,6 +714,20 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-subscribe {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .footer-subscribe {
+    flex-direction: row;
+    align-items: flex-start;
+  }
 }
 
 /* .footer-subscribe {
@@ -689,6 +747,18 @@ img {
   color: var(--white-color);
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-btn {
+    margin-left: 24px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .footer-btn {
+    margin-left: 24px;
+  }
 }
 
 .footer-btn:hover,
@@ -727,6 +797,18 @@ img {
 
   line-height: 1.5;
   margin-bottom: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-small-text {
+    justify-content: left;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .footer-small-text {
+    justify-content: left;
+  }
 }
 
 .logo-font-footer {
@@ -769,7 +851,13 @@ img {
 }
 
 .footer-pos {
-  padding: 100px 0;
+  padding: 96px 0;
+}
+
+@media only screen and (min-width: 1200px) {
+  .footer-pos {
+    padding: 100px 0;
+  }
 }
 
 .socials-footer {
