@@ -88,7 +88,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   /* Desktop */
   .container {
     max-width: 1158px;
@@ -106,7 +106,7 @@ img {
   padding: 96px 0;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .section {
     padding: 120px 0;
   }
@@ -151,7 +151,7 @@ img {
   /* text-align: center; */
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .items-title {
     font-size: 20px;
     font-weight: 500;
@@ -289,7 +289,7 @@ img {
   gap: 40px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
   .header-address-row {
     display: flex;
     flex-direction: column;
@@ -297,7 +297,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .header-address-row {
     display: flex;
     flex-direction: row;
@@ -511,7 +511,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .hero-btn {
     margin: 48px auto 0;
   }
@@ -557,7 +557,7 @@ img {
   color: var(--color-slate);
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .skills-small-text {
     font-weight: 400;
   }
@@ -578,7 +578,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .skills-item {
     width: 264px;
   }
@@ -601,7 +601,7 @@ img {
   margin-bottom: 8px;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .icon-skill {
     display: flex;
   }
@@ -616,7 +616,7 @@ img {
   display: none;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .section-third {
     display: block;
   }
@@ -759,7 +759,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .clients-item {
     width: calc((100% - 120px) / 6);
   }
@@ -818,7 +818,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .footer-container {
     display: flex;
     flex-direction: row;
@@ -841,7 +841,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .footer-part-one {
     display: inline-block;
     margin-right: 120px;
@@ -857,7 +857,7 @@ img {
   display: block;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .footer-part-two {
     /* display: block; */
     margin-right: 80px;
@@ -883,7 +883,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .footer-part-three {
     display: block;
   }
@@ -907,7 +907,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .footer-subscribe {
     flex-direction: row;
     align-items: flex-start;
@@ -940,7 +940,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .footer-btn {
     margin-left: 24px;
   }
@@ -990,7 +990,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .footer-small-text {
     justify-content: left;
   }
@@ -1039,7 +1039,7 @@ img {
   padding: 96px 0;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .footer-pos {
     padding: 100px 0;
   }
@@ -1114,7 +1114,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .btn-row-section {
     padding-top: 100px;
     padding-bottom: 72px;
@@ -1220,7 +1220,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .done-prj-element {
     flex-basis: calc((100% - 24px * 2) / 3);
   }
