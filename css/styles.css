@@ -395,7 +395,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero/hero_mob@1x.png);
+    url(../images/hero/hero_mob@1x.webp);
   padding: 188px 0;
   background-repeat: no-repeat;
   background-position: center;
@@ -410,17 +410,17 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero/hero_mob@2x.png);
+      url(../images/hero/hero_mob@2x.webp);
   }
 }
 
-@media only screen and (min-width: 429px) {
+@media only screen and (min-width: 428px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero/hero_tab@1x.png);
+      url(../images/hero/hero_tab@1x.webp);
     padding: 188px 0;
   }
   @media (min-device-pixel-ratio: 2),
@@ -431,18 +431,18 @@ img {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/hero/hero_tab@2x.png);
+        url(../images/hero/hero_tab@2x.webp);
     }
   }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero/hero_des@1x.png);
+      url(../images/hero/hero_des@1x.webp);
     padding: 188px 0;
   }
   @media (min-device-pixel-ratio: 2),
@@ -453,7 +453,7 @@ img {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/hero/hero_des@2x.png);
+        url(../images/hero/hero_des@2x.webp);
     }
   }
 }
@@ -584,8 +584,19 @@ img {
   }
   .skills-items-title {
     text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
   }
 }
+
+/* @media only screen and (min-width: 1158px) {
+  .skills-items-title {
+    font-weight: 500;
+    font-size: 20;
+    line-height: 1.2;
+  }
+} */
 
 .icon-skill {
   /* display: flex; */
@@ -632,6 +643,16 @@ img {
 }
 
 /* Team section */
+
+.items-title-team {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+  margin: 0 0 8px 0;
+  /* text-align: center; */
+}
 
 .team-small-text {
   font-size: 16px;
@@ -719,6 +740,12 @@ img {
 }
 
 /* Customers section */
+
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
+  .main-client-container {
+    width: 582px;
+  }
+}
 
 .fourth-section-title {
   line-height: 1.1;
@@ -1054,7 +1081,7 @@ img {
 
 .footer-link-status {
   display: inline-block;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 
 .footer-text-size {
