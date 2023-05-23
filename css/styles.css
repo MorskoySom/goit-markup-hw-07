@@ -847,7 +847,7 @@ img {
 
 @media only screen and (min-width: 768px) {
   .footer-container {
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     flex-wrap: wrap;
     /* justify-content: center; */
@@ -856,13 +856,13 @@ img {
   }
 }
 
-@media only screen and (min-width: 1158px) {
+/* @media only screen and (min-width: 1158px) {
   .footer-container {
     display: flex;
     flex-direction: row;
     align-items: baseline;
   }
-}
+} */
 
 .footer-part-one {
   /* display: flex;
@@ -879,12 +879,12 @@ img {
   }
 }
 
-@media only screen and (min-width: 1158px) {
+/* @media only screen and (min-width: 1158px) {
   .footer-part-one {
     display: inline-block;
     margin-right: 120px;
   }
-}
+} */
 
 /* .footer-part-one {
   display: inline-block;
@@ -915,7 +915,7 @@ img {
   row-gap: 16px; */
 }
 
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   .footer-part-three {
     display: block;
   }
@@ -925,32 +925,33 @@ img {
   .footer-part-three {
     display: block;
   }
-}
+} */
 
 /* .footer-part-three {
   display: block;
 } */
 
-.footer-subscribe {
+/* .footer-subscribe {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
 @media only screen and (min-width: 768px) {
   .footer-subscribe {
-    flex-direction: row;
-    align-items: flex-start;
+    display: flex;
+    /* flex-direction: row;
+    align-items: flex-start; */
   }
 }
 
-@media only screen and (min-width: 1158px) {
+/* @media only screen and (min-width: 1158px) {
   .footer-subscribe {
     flex-direction: row;
     align-items: flex-start;
   }
-}
+} */
 
 /* .footer-subscribe {
   display: flex;
@@ -979,11 +980,11 @@ img {
   }
 }
 
-@media only screen and (min-width: 1158px) {
+/* @media only screen and (min-width: 1158px) {
   .footer-btn {
     margin-left: 24px;
   }
-}
+} */
 
 .footer-btn:hover,
 .footer-btn:focus {
@@ -1027,7 +1028,7 @@ img {
   margin-bottom: 16px;
 } */
 
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   .footer-small-text {
     justify-content: left;
     margin-bottom: 16px;
@@ -1038,7 +1039,7 @@ img {
   .footer-small-text {
     justify-content: left;
   }
-}
+} */
 
 .logo-font-footer {
   font-family: "Raleway", sans-serif;
@@ -1101,11 +1102,11 @@ img {
   margin-bottom: 16px;
 }
 
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   .footer-link-status {
     margin-bottom: 16px;
   }
-}
+} */
 
 .footer-text-size {
   width: 264px;
